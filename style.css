@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.about, .memories, .message {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
